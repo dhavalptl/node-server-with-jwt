@@ -2,12 +2,12 @@
 
 ## Express NodeJS server with JWT implementation
 
-### Start Server
+Start Server
 ```
 node index
 ```
 
-### Signup User with dummy username and password in json form using POST url http://localhost:3000/signup
+Signup User with dummy username and password in json form using POST url http://localhost:3000/signup
 ```
 {
   "username": "test",
@@ -15,7 +15,7 @@ node index
 }
 ```
 
-### Login user with above username and password in json form using POST url http://localhost:3000/login
+Login user with above username and password in json form using POST url http://localhost:3000/login
 ```
 {
   "username": "test",
@@ -24,6 +24,6 @@ node index
 ```
 Server will return token in header
 
-###  Take token from login request header set Authorization header and send GET request http://localhost:3000/customers
+Take token from login request header set Authorization header and send GET request http://localhost:3000/customers
 
 you will get list of customers if you send request with valid jwt token
