@@ -1,0 +1,18 @@
+{
+  "name": "node-server-with-jwt",
+  "version": "1.0.0",
+  "description": "Express Server with JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ExpressJS", "NodeJS", "JWT"],
+  "author": "Dhvl",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.11.0",
+    "jsonwebtoken": "^8.1.1"
+  }
+}
