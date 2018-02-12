@@ -27,3 +27,15 @@ Server will return token in header
 Take token from login request header set Authorization header and send GET request http://localhost:3000/customers
 
 you will get list of customers if you send request with valid jwt token
+
+## Dockerize node server
+
+After clone this project, go to project directory and build docker images
+```
+docker build -t node-server-with-jwt .
+```
+
+Run docker image
+```
+docker run -p <enter port which you want to use for this server>:3000 -d node-server-with-jwt
+```
